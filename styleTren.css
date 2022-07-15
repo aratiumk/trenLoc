@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: moccasin;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.titlu {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.formular {
+  text-align: center;
+  color: azure;
+  background-color: rgb(124, 50, 124);
+  border: 5px solid rgb(124, 50, 124);
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 21cm;
+  margin-right: 21cm;
+}
+
+.telefon {
+  text-align: center;
+  background-color: rgb(124, 50, 124);
+}
+
+.wholetrainSideView {
+  margin-top: 50px;
+}
+
+.locomotiva {
+  border: 10px solid rgb(0, 143, 187);
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 900px;
+  float: left;
+  width: 140px;
+  height: 50px;
+  background-color: rgb(0, 143, 187);
+  transition: transform 0.2s;
+}
+
+.locomotiva:hover {
+  transform: scale(1.1);
+}
+
+.vagonTip1SideView {
+  float: left;
+  border: 10px solid rgb(0, 143, 187);
+  border-radius: 15px;
+  margin-left: 7px;
+  width: 140px;
+  height: 50px;
+  background-color: rgb(0, 143, 187);
+  transition: transform 0.2s;
+}
+
+.vagonTip1SideView:hover {
+  transform: scale(1.1);
+}
+
+.sina {
+  margin-top: 100px;
+  margin-left: 870px;
+  width: 780px;
+  height: 10px;
+  background-color: rgb(75, 75, 75);
+}
+
+.vagon1FullBody {
+  margin-top: 60px;
+}
+
+.usa1 {
+  float: left;
+  margin-top: 190px;
+  margin-left: 8.85cm;
+  background-color: rgb(27, 27, 27);
+  width: 1cm;
+  height: 5cm;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.usa2 {
+  float: right;
+  margin-top: 190px;
+  margin-right: 8.85cm;
+  background-color: rgb(27, 27, 27);
+  width: 1cm;
+  height: 5cm;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.vagonTip1 {
+  width: 1800px;
+  height: 550px;
+  background-color: rgb(224, 224, 224);
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 20px solid rgb(124, 50, 124);
+  border-radius: 50px;
+}
+
+.vestibul1 {
+  float: left;
+  border-right: 0.5cm solid rgb(65, 65, 65);
+  width: 4cm;
+  height: 510px;
+  background-color: rgb(168, 168, 168);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.vestibul2 {
+  float: right;
+  border-left: 0.5cm solid rgb(65, 65, 65);
+  width: 4cm;
+  height: 510px;
+  background-color: rgb(168, 168, 168);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.compartiment1 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+.compartiment2 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+.compartiment3 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+
+.compartiment4 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+
+.compartiment5 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+
+.compartiment6 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+
+.compartiment7 {
+  float: left;
+  border-right: 10px solid rgb(65, 65, 65);
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 5cm;
+  height: 380px;
+}
+
+.spatiuTehnic {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  float: left;
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(0, 0, 0, 0.575);
+  width: 134.5px;
+  height: 190px;
+}
+
+.toaleta {
+  float: right;
+  border-bottom: 10px solid rgb(65, 65, 65);
+  background-color: rgb(224, 224, 224);
+  width: 134.5px;
+  height: 190px;
+}
+
+.scaunSensInversDeMers {
+  clear: left;
+  float: left;
+  margin-top: 11px;
+  width: 60px;
+  height: 75px;
+  background-color: rgb(201, 201, 201);
+  border-top: 10px solid gray;
+  border-left: 10px solid gray;
+  border-bottom: 10px solid gray;
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+.scaunSensInversDeMers:hover {
+  transform: scale(1.1);
+}
+
+.scaunSensDeMers {
+  clear: right;
+  float: right;
+  margin-top: 11px;
+  width: 60px;
+  height: 75px;
+  background-color: rgb(201, 201, 201);
+  border-top: 10px solid gray;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid gray;
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+.scaunSensDeMers:hover {
+  transform: scale(1.1);
+}
+
+.sens-de-mers {
+  border-radius: 25px;
+  border: 25px solid rgb(0, 143, 187);
+  background-color: rgb(0, 143, 187);
+  margin-left: 25cm;
+  margin-right: 25cm;
+}
+.textSensDeMers {
+  border-radius: 15px;
+  border-left: 15px solid rgb(201, 112, 10);
+  border-right: 15px solid rgb(201, 112, 10);
+  margin-left: 130px;
+  margin-right: 130px;
+  background-color: rgb(201, 112, 10);
+  text-align: center;
+  color: rgb(228, 228, 228);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

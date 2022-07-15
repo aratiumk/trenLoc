@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>loc in Tren</title>
+    <link href="styleTren.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="C:\Users\Test\Desktop\locTren\favicon.ico"
+    />
+  </head>
+
+  <body>
+    <div></div>
+    <h1 class="titlu">Selectare loc in tren</h1>
+
+    <form class="formular" id="formular">
+      <h2>Va rugam completati acest formular cu datele personale</h2>
+      <input
+        type="text"
+        required
+        placeholder="Numele"
+        name="numele"
+        id="nume-familie"
+        minlength="3"
+        maxlength="25"
+      />
+      <input
+        type="text"
+        required
+        placeholder="Prenumele"
+        name="prenumele"
+        id="prenume"
+        minlength="3"
+        maxlength="25"
+      />
+      <input
+        type="number"
+        required
+        placeholder="Varsta"
+        name="varsta"
+        id="varsta"
+        min="1"
+        max="99"
+      />
+      <select name="sex" id="sex" required>
+        <option value="00"></option>
+        <option value="11">Masculin</option>
+        <option value="22">Feminin</option>
+        <option value="33">Sigur nu tin cu aur</option>
+      </select>
+      <input
+        type="email"
+        required
+        placeholder="Adresa de mail"
+        name="email"
+        id="email"
+      />
+      <h4>data plecarii</h4>
+      <input
+        type="date"
+        required
+        placeholder="Data plecarii"
+        name="data-plecarii"
+        id="data-plecarii"
+      />
+      <h4>numar de telefon</h4>
+      <input
+        type="tel"
+        name="telefon"
+        id="telefon"
+        required
+        pattern="07[0-9]{2}-[0-9]{3}-[0-9]{3}"
+      />
+      <h4>retur?</h4>
+      <input type="radio" required name="retur1" id="r1" value="yes" /><label
+        for="r1"
+        >Da</label
+      >
+      <input type="radio" required name="retur2" id="r2" value="no" /><label
+        for="r2"
+        >Nu
+      </label>
+      <h4></h4>
+      <label for="rute-tren">Alegeti o ruta a companiei noastre</label>
+      <select id="rute" required>
+        <option value="1">Bucuresti-Sibiu</option>
+        <option value="2">Bucuresti-Constanta</option>
+        <option value="3">Bucuresti-Cluj</option>
+        <option value="4">Bucuresti-Brasov</option>
+      </select>
+      <button id="button-1">Continuati</button>
+    </form>
+
+    <div class="wholetrainSideView">
+      <div class="locomotivaBody">
+        <div class="locomotiva"></div>
+      </div>
+      <div class="vagonBody">
+        <div class="vagonTip1SideView"></div>
+      </div>
+      <div class="vagonBody">
+        <div class="vagonTip1SideView"></div>
+      </div>
+      <div class="vagonBody">
+        <div class="vagonTip1SideView"></div>
+      </div>
+      <div class="vagonBody">
+        <div class="vagonTip1SideView"></div>
+      </div>
+    </div>
+
+    <div class="sina"></div>
+
+    <div class="vagon1FullBody">
+      <div class="usa1"></div>
+      <div class="usa2"></div>
+      <div class="vagonTip1">
+        <div class="vestibul1"></div>
+        <div class="vestibul2"></div>
+        <div class="compartiment1">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+        <div class="compartiment2">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+        <div class="compartiment3">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+
+        <div class="compartiment4">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+
+        <div class="compartiment5">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+
+        <div class="compartiment6">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+
+        <div class="compartiment7">
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+          <div class="scaunSensInversDeMers"></div>
+          <div class="scaunSensDeMers"></div>
+        </div>
+        <div class="spatiuTehnic">spatiu tehnic</div>
+        <div class="toaleta">
+          <img
+            class="semnToaleta"
+            src="C:\Users\Test\Desktop\locTren\semnToaleta.png"
+            alt="semnToaleta"
+          />
+        </div>
+      </div>
+    </div>
+
+    <h1></h1>
+    <div class="vagon-tip-2"></div>
+    <h1></h1>
+    <div class="sens-de-mers">
+      <img
+        src="C:\Users\Test\Desktop\locTren\sensDeMers.png"
+        alt="sensDeMers"
+      />
+      <h2 class="textSensDeMers">sensul de mers al garniturii</h2>
+    </div>
+
+    <script src="locTren.js "></script>
+  </body>
+</html>
